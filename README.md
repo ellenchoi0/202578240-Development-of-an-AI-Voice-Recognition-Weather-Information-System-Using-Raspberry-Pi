@@ -36,9 +36,9 @@ USB 마이크와 오디오 출력 장치를 활용해 특정 키워드("날씨")
 ### 1. 한글 및 TTS 필수 패키지 설치
 
 터미널 창을 열고 라즈베리파이 운영체제 레이어에 아래 패키지들을 순차적으로 설치합니다.
-> sudo apt-get install espeak -y                 # TTS(Text-to-Speech) 프로그램 설치
-> sudo apt install -y fonts-unfonts-core         # 깨짐 방지용 한글 폰트 설치
-> sudo apt install -y fcitx5 fcitx5-hangul fcitx5-config-qt  # fcitx5 한글 입력기 설치
+> sudo apt-get install espeak -y # TTS(Text-to-Speech) 프로그램 설치,
+> sudo apt install -y fonts-unfonts-core # 깨짐 방지용 한글 폰트 설치,
+> sudo apt install -y fcitx5 fcitx5-hangul fcitx5-config-qt # fcitx5 한글 입력기 설치
 
 ### 2. 환경 변수 등록 및 자동 시작 설정
 
