@@ -43,9 +43,7 @@ USB 마이크와 오디오 출력 장치를 활용해 특정 키워드("날씨")
 ### 2. 환경 변수 등록 및 자동 시작 설정
 
 터미널 및 시스템 전반에서 한글 입력 인터페이스가 연동되도록 설정을 추가합니다.
-- 환경 변수 추가: nano ~/.bashrc 명령어로 파일을 열고 맨 하단에'export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
-export XMODIFIERS=@im=fcitx' 코드를 추가합니다.
+- 환경 변수 추가: nano ~/.bashrc 명령어로 파일을 열고 맨 하단에'export GTK_IM_MODULE=fcitx export QT_IM_MODULE=fcitx export XMODIFIERS=@im=fcitx' 코드를 추가합니다.
 - 백그라운드 자동 시작 설정: 재부팅 시 수동으로 켜야 하는 번거로움을 없애기 위해 자동 시작 파일을 생성합니다.
 - 생성된 fcitx5.desktop 파일에 자동 실행 구문을 적어 저장한 뒤 sudo reboot 명령어로 시스템을 재시작하여 설정을 완전히 동기화합니다.
 
